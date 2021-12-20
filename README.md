@@ -1,6 +1,8 @@
 # sync-rpc
 
-Run asynchronous commands synchronously by putting them in a separate process
+Run asynchronous commands synchronously by putting them in a separate process.
+
+This fork adds support for running this library using an Electron executable (adds the `--ms-enable-electron-run-as-node` flag).
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/sync-rpc/master.svg)](https://travis-ci.org/ForbesLindesay/sync-rpc)
 [![Dependency Status](https://img.shields.io/david/ForbesLindesay/sync-rpc/master.svg)](http://david-dm.org/ForbesLindesay/sync-rpc)
